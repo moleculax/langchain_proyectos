@@ -7,14 +7,14 @@
 ![Ollama](https://img.shields.io/badge/Ollama-0.5.0+-000000?logo=ollama&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Ejecuta modelos de IA localmente sin necesidad de API keys ni costos**
+
 
 </div>
 
 ## 📋 Langchain
 LangChain es un framework (biblioteca) para Python y JavaScript que facilita la creación de aplicaciones que utilizan Modelos de Lenguaje Grande (LLMs) como Gemini, GPT, Llama, etc.
 
-"Ejecuto LangChain junto con Ollama en Debian 13, dentro de un entorno virtual de Python. El sistema funciona de manera estable, sin errores ni restricciones de conectividad o permisos
+**Ejecuto LangChain junto con Ollama en Debian 13, dentro de un entorno virtual de Python. El sistema funciona de manera estable, sin errores ni restricciones de conectividad o permisos**
 
 ## Explicación simple:
 Imagina que quieres construir un chatbot que:
@@ -49,3 +49,4 @@ LangChain hace todo esto más fácil al proporcionar "piezas" que puedes conecta
 | Espacio disco | 10GB+ | `df -h` |
 
 
+[moleculaxapp.vercel.app](https://moleculaxapp.vercel.app/)
