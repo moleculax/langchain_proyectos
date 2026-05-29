@@ -1,0 +1,28 @@
+=======================================================================
+MANUAL DE POLÍTICAS INTERNAS DE OPERACIÓN - TIENDA EN LÍNEA "MENUADMIN"
+=======================================================================
+
+1. POLÍTICA DE ENVÍOS Y ENTREGAS
+--------------------------------
+* Plazos de Entrega: Los envíos nacionales tardan entre 3 y 5 días hábiles en ciudades principales, y hasta 8 días hábiles en zonas extendidas. Los fines de semana y días festivos no cuentan como días hábiles.
+* Costos de Envío: El envío es completamente gratuito para compras superiores a $50,000 COP. Para compras inferiores, el costo estándar de envío es de $12,000 COP a cualquier destino nacional.
+* Seguimiento: Una vez despachado el paquete, el cliente recibirá un correo electrónico automático con el número de guía y el enlace de la empresa transportadora para realizar el rastreo en tiempo real.
+
+2. POLÍTICA DE DEVOLUCIONES Y REEMBOLSOS
+----------------------------------------
+* Plazo de Solicitud: El cliente dispone de un máximo de 30 días calendario, contados a partir de la fecha de entrega del producto, para solicitar una devolución o reembolso.
+* Condiciones del Producto: Para que la devolución sea aceptada y procesada, el artículo debe estar completamente nuevo, sin señales de uso, en su empaque original sellado y con todas las etiquetas internas e intermedias intactas.
+* Costo de Retorno: Los costos de transporte y envío para la devolución del producto corren por cuenta exclusiva del cliente, a menos que el motivo de la devolución sea un defecto de fabricación comprobado o un error en el envío por parte de la tienda.
+* Tiempo de Procesamiento del Dinero: Una vez que el producto llega a nuestro centro de distribución y se verifica su estado óptimo, el reembolso del dinero se procesará en un plazo de 5 a 7 días hábiles directos a la cuenta bancaria del comprador.
+
+3. POLÍTICA DE GARANTÍAS
+------------------------
+* Periodo de Cobertura: Todos los productos tecnológicos y de software cuentan con una garantía de fábrica de 12 meses (1 año). Los accesorios cuentan con una garantía limitada de 30 días.
+* Exclusiones de Garantía: La garantía no cubre daños causados por golpes, humedad, mal uso, modificaciones de software no autorizadas, variaciones de voltaje eléctrico o desgaste natural por el uso cotidiano.
+* Proceso de Reclamación: Para reportar una falla por garantía, el usuario debe escribir al canal de soporte adjuntando la factura de compra original y un video corto que demuestre la falla reportada.
+
+4. SERVICIO AL CLIENTE Y SOPORTE TÉCNICO
+----------------------------------------
+* Canales Oficiales: El único canal autorizado para soporte posventa, problemas con las órdenes o solicitudes de cambios es el correo electrónico institucional (soporte@menuadmin.com). No se gestionan garantías por redes sociales.
+* Horario de Atención: El equipo de soporte opera de lunes a viernes de 8:00 AM a 6:00 PM, y los sábados de 9:00 AM a 1:00 PM. No hay atención los domingos ni días feriados.
+=======================================================================

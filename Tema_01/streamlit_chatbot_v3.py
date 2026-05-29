@@ -7,6 +7,10 @@ import os
 
 from dotenv import load_dotenv, find_dotenv
 
+# ❌ ERROR LÍNEA 9: Import incorrecto - estas variables no existen en ese módulo
+# from Tema_01.streamlit_chatbot import response_placeholder, full_response
+# ✅ CORRECCIÓN: Eliminar esta línea
+
 # Busca .env automáticamente en carpetas superiores
 load_dotenv(find_dotenv())
 # Se ejecuta: streamlit run streamlit_chatbot_v2.py en la terminal para iniciar la app
@@ -29,17 +33,14 @@ st.set_page_config(
 hide_deploy = """
     <style>
         .stAppDeployButton {display: none;}
-       
+
         footer {visibility: hidden;}
     </style>
 """
 
 st.markdown(hide_deploy, unsafe_allow_html=True)
 
-
-
 # Configuración inicial
-#  st.set_page_config(page_title="Chatbot Básico", page_icon="🤖")
 st.title("Chatbot Básico con LangChain + Gemini + Ollama3.2")
 st.markdown(
     "Este es un *chatbot  construido con LangChain + Gemini, Ollama + Streamlit. ¡Escribe tu mensaje abajo para comenzar!")
@@ -53,10 +54,8 @@ with st.sidebar:
         "ollama-llama3.2",
         "ollama-mistral",
         "ollama-phi3"
-    ], index=3)   #  Por defecto (índice 3)
+    ], index=3)  # Por defecto (índice 3)
 
-# temperature = 0.5
-# model_name = "gemini-2.5-flash"
 
 # Seleccionar el modelo según la opción elegida
 if model_name.startswith("ollama-"):
@@ -108,12 +107,22 @@ if pregunta:
     with st.chat_message("user"):
         st.markdown(pregunta)
 
+    try:
+        with st.chat_message("assistant"):
+            response_placeholder = st.empty()
+            full_response = ""
+
+            for chunk in cadena.stream({"mensaje": pregunta, "historial": st.session_state.mensajes}):
+                full_response += chunk.content
+                response_placeholder.markdown(full_response + "▌")
+
+            response_placeholder.markdown(full_response)
 
         # Almacenamos el mensaje en la memoria de streamlit
         st.session_state.mensajes.append(HumanMessage(content=pregunta))
-        # =====================================================
-        respuesta = chat_model.invoke(st.session_state.mensajes)
-        with st.chat_message("assistant"):
-            st.markdown(respuesta.content)
 
-            st.session_state.mensajes.append(AIMessage(content=respuesta.content))
+        st.session_state.mensajes.append(AIMessage(content=full_response))
+
+
+    except Exception as e:
+        st.error(f"Error: {str(e)}")
