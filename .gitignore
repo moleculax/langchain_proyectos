@@ -1,6 +1,18 @@
+
+# Entorno virtual
+langchain_env/
+
+
+# Variables de entorno
 .env
+# =====================
+
+Thumbs.db
 .env.local
 .env.production
 __pycache__/
 *.pyc
 .DS_Store
+
+# Build
+target/

@@ -5,10 +5,10 @@ from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_core.documents import Document
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
-
-#Este programa usa el agente Ollama para interpretar un rachivo
+# =====================================================================
+# Este programa usa el agente Ollama para interpretar un achivo txt
 # y buscar respuestas a las preguntas formuladas en elñ prompt
-
+# =====================================================================
 # 1. Cargar el documento
 with open("politicas.txt", "r", encoding="utf-8") as f:
     texto = f.read()
