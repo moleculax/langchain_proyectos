@@ -4,8 +4,13 @@ from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_core.prompts import PromptTemplate
 import os
 
-# API key de Google
-os.environ["GOOGLE_API_KEY"] = "AQ.Ab8RN6KRkuvkijft-MCBNE_xOxyLs-Ofs"
+from dotenv import load_dotenv, find_dotenv
+
+# Busca .env automáticamente en carpetas superiores
+load_dotenv(find_dotenv())
+# Se ejecuta: streamlit run streamlit_chatbot_v2.py en la terminal para iniciar la app
+# USAMOS LA API KEY DE GEMINI
+api_key = os.getenv("GOOGLE_API_KEY")
 
 # Configuración inicial
 st.set_page_config(page_title="Chatbot Básico", page_icon="🤖")
