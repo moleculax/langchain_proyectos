@@ -6,22 +6,25 @@ from langchain_core.documents import Document
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
+#Este programa usa el agente Ollama para interpretar un rachivo 
+# y buscar respuestas a las preguntas formuladas en elñ prompt
+
 # 1. Cargar el documento
 with open("politicas.txt", "r", encoding="utf-8") as f:
     texto = f.read()
 
-# print(f"📄 Total caracteres: {len(texto)}")
+# print(f" Total caracteres: {len(texto)}")
 
 # Crear documento
 doc = Document(page_content=texto, metadata={"fuente": "politicas.txt"})
 
-# ✅ Aumentar chunk_size para mantener contexto
+# Aumentar chunk_size para mantener contexto
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000,      # ← Aumentado de 200 a 1000
     chunk_overlap=100     # ← Aumentado solapamiento
 )
 chunks = text_splitter.split_documents([doc])
-# print(f"📑 Fragmentos creados: {len(chunks)}")
+# print(f" Fragmentos creados: {len(chunks)}")
 
 # 2. Embeddings con llama3.2 (ya lo tienes)
 embeddings = OllamaEmbeddings(model="llama3.2")
