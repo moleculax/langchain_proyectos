@@ -1,15 +1,5 @@
-# 🤖 Ejemplos de  LangChain + Ollama - Asistente Local con IA
+# 🤖 LangChain + Ollama - Asistente Local con IA
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1.3.2-00C4B4?logo=langchain&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-0.5.0+-000000?logo=ollama&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-
-
-
-</div>
 
 ![Imagen Langchain](https://raw.githubusercontent.com/moleculax/Langchain/main/0_ESQyuOWyNN_nGlTG.jpg)
 ## 📋 Langchain
@@ -50,5 +40,19 @@ LangChain hace todo esto más fácil al proporcionar "piezas" que puedes conecta
 | RAM        | 8GB+ | `free -h` |
 | Espacio disco | 10GB+ | `df -h` |
 
+
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1.3.2-00C4B4?logo=langchain&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-0.5.0+-000000?logo=ollama&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-2.0+-4285F4?logo=google&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-12/13-A81D33?logo=debian&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
+
+</div>
 
 [URL EmilioJG](https://moleculaxapp.vercel.app/)
