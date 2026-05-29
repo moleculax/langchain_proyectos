@@ -11,6 +11,7 @@
 
 </div>
 
+![Imagen Langchain](https://raw.githubusercontent.com/moleculax/Langchain/main/0_ESQyuOWyNN_nGlTG.jpg)
 ## 📋 Langchain
 LangChain es un framework (biblioteca) para Python y JavaScript que facilita la creación de aplicaciones que utilizan Modelos de Lenguaje Grande (LLMs) como Gemini, GPT, Llama, etc.
 
