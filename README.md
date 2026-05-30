@@ -1,4 +1,4 @@
-# 🤖 LangChain + Ollama - Asistente Local con IA
+#  LangChain + Ollama - Asistente Local con IA
 
 
 ![Imagen Langchain](https://raw.githubusercontent.com/moleculax/Langchain/main/0_ESQyuOWyNN_nGlTG.jpg)
