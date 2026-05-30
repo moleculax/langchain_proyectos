@@ -55,7 +55,7 @@ LangChain hace todo esto más fácil al proporcionar "piezas" que puedes conecta
 
 </div>
 
-![Imagen Langchain](https://raw.githubusercontent.com/moleculax/Langchain/main/screen_0.png)
+![Imagen Langchain](https://raw.githubusercontent.com/moleculax/Langchain/main/screen.png)
 
 
 [URL EmilioJG](https://moleculaxapp.vercel.app/)
